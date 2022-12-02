@@ -1,8 +1,9 @@
 {
   "name": "drawing-canvas",
-  "version": "1.4.0",
-  "main": "./index.js",
+  "version": "1.4.14",
+  "main": "index.js",
   "type": "module",
+  "types": "index.d.ts",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc && cp package.json README.md ./dist"
@@ -15,10 +16,9 @@
   "devDependencies": {
     "@types/lodash": "^4.14.191",
     "@types/react": "^18.0.25",
-    "@types/react-dom": "^18.0.9",
-    "typescript": "^4.9.3",
+    "@types/node": "^18.11.10",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "typescript": "^4.9.3"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,5 @@
   },
   "homepage": "https://github.com/handwoo24/drawing-canvas#readme",
   "description": "preparing",
-  "keywords": [],
-  "exports": "./index.js"
+  "keywords": []
 }
