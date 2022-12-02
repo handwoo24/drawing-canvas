@@ -1,7 +1,7 @@
 {
   "name": "drawing-canvas",
-  "version": "1.3.0",
-  "main": "index.js",
+  "version": "1.4.0",
+  "main": "./index.js",
   "type": "module",
   "scripts": {
     "clean": "rm -rf dist",
@@ -30,7 +30,5 @@
   "homepage": "https://github.com/handwoo24/drawing-canvas#readme",
   "description": "preparing",
   "keywords": [],
-  "exports": {
-    ".": "./index.js"
-  }
+  "exports": "./index.js"
 }
