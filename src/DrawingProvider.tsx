@@ -6,7 +6,7 @@ import type {
   DrawingPath,
   DrawingType,
 } from "./interface";
-import {
+import React, {
   createContext,
   useCallback,
   useRef,
