@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "npm run clean && tsc && cp package.json README.md ./dist",
-    "bundle": "rollup -c"
+    "build": "npm run clean && tsc && cp package.json README.md ./dist"
   },
   "author": "handwoo24",
   "license": "MIT",
@@ -21,8 +20,8 @@
     "@types/lodash": "^4.14.191",
     "@types/node": "^18.11.10",
     "@types/react": "^18.0.25",
-    "rollup": "^3.5.1",
-    "rollup-plugin-typescript2": "^0.34.1",
+    "@types/react-dom": "^18.0.9",
+    "react-dom": "^18.2.0",
     "typescript": "^4.9.3"
   },
   "repository": {
