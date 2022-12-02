@@ -1,7 +1,8 @@
 {
   "name": "drawing-canvas",
-  "version": "1.0.13",
+  "version": "1.2.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc && cp package.json README.md ./dist"
@@ -27,5 +28,6 @@
     "url": "https://github.com/handwoo24/drawing-canvas/issues"
   },
   "homepage": "https://github.com/handwoo24/drawing-canvas#readme",
-  "description": ""
+  "description": "preparing",
+  "keywords": []
 }
