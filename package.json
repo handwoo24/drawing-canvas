@@ -1,8 +1,9 @@
 {
   "name": "drawing-canvas",
-  "version": "1.0.9",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "version": "1.0.10",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
   "type": "module",
   "browser": "./browser/specific/main.js",
   "scripts": {

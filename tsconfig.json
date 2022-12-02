@@ -15,6 +15,7 @@
     "jsx": "react",
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "declarationMap": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["DOM", "ESNext"]
   },
