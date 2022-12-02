@@ -1,10 +1,16 @@
 {
   "name": "drawing-canvas",
-  "version": "1.8.3",
-  "main": "index.js",
+  "version": "1.9.1",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
-    "clean": "rm -rf dist",
-    "build": "yarn clean && tsc && cp package.json README.md ./dist"
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs"
   },
   "author": "handwoo24",
   "license": "MIT",
