@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     "strict": true,
-    "jsx": "react",
+    "jsx": "preserve",
     "declaration": true,
     "esModuleInterop": true,
     "outDir": "dist",
-    "target": "es6",
-    "module": "es6",
+    "target": "es5",
+    "module": "CommonJS",
     "moduleResolution": "node"
   },
   "include": ["src"]
