@@ -1,14 +1,13 @@
 {
   "name": "drawing-canvas",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "browser": "./browser/specific/main.js",
   "scripts": {
-    "build": "tsc",
-    "publish:npm": "rm --rf dist && babel src -d dist --copy files"
+    "build": "tsc"
   },
   "babel": {
     "presets": [
